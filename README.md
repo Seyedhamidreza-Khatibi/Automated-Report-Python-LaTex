@@ -1,5 +1,5 @@
 # Automated-Report-Python-LaTex-
-Run Pytex.py for generating report with LaTex
+Run Pytex.py for generating report with LaTex. 
 Notice that any changes to your report muset be done by Tex_file.tex/for processing you data (e.g, applying Machine Learining Algoorithms) edit Pytex.py file. dont_edit_this_file.py is for connecting the python and LaTex by jinja2 library.
 
 
