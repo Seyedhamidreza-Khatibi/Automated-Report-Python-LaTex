@@ -10,7 +10,7 @@ import pandas as pd
 product_data=pd.read_excel('./test_data.xls', index_col='Index')
 categories=product_data['Category'].unique()
 product_list = {k:product_data[product_data['Category']==k].T.to_dict() for k in categories}
-#Example for Creating a figure by a simple KNN cluserting 
+#Example for Creating a figure by a simple KNN cluserting (unsupervised learning methods)
 # K-Means Clustering
 # Importing the libraries
 import numpy as np
